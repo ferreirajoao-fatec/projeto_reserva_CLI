@@ -43,7 +43,7 @@
     <input type="text" name="nome" placeholder="Seu nome" required><br>
     <input type="date" name="data_reserva" required><br>
     <label><input type="radio" name="turno" value="manha" required> Desenvolvimento de Software Multiplataforma</label>
-    <label><input type="radio" name="turno" value="noite"> Análise e processos Agroindustriais</label><br>
+    <label><input type="radio" name="turno" value="noite"> Análise de Processos Agroindustriais</label><br>
     <button type="submit">Reservar</button>
   </form>
 
