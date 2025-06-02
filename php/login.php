@@ -13,15 +13,20 @@ if (isset($_SESSION['usuario'])) {
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    
-    <form method="post" action="verificar_login.php">
-        <label>Usuário:</label>
-        <input type="text" name="usuario" required><br><br>
+    <div class="login-container">
+    <div class="form-wrapper">
+        <h2>Login</h2>
+        <form method="post" action="verificar_login.php">
+            <label>Usuário:</label>
+            <input type="text" name="usuario" required><br><br>
 
-        <label>Senha:</label>
-        <input type="password" name="senha" required><br><br>
+            <label>Senha:</label>
+            <input type="password" name="senha" required><br><br>
 
-        <button type="submit">Entrar</button>
-    </form>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
