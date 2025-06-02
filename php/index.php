@@ -42,8 +42,8 @@
   <form method="POST">
     <input type="text" name="nome" placeholder="Seu nome" required><br>
     <input type="date" name="data_reserva" required><br>
-    <label><input type="radio" name="turno" value="manha" required> Manhã</label>
-    <label><input type="radio" name="turno" value="noite"> Noite</label><br>
+    <label><input type="radio" name="turno" value="manha" required> Desenvolvimento de Software Multiplataforma</label>
+    <label><input type="radio" name="turno" value="noite"> Análise e processos Agroindustriais</label><br>
     <button type="submit">Reservar</button>
   </form>
 
