@@ -7,7 +7,7 @@ $senha   = $_POST['senha'] ?? '';
 // Configurações do servidor LDAP
 $ldap_host = "ldap://SEU_SERVIDOR"; // Ex: ldap://192.168.0.1
 $dominio   = "SEU_DOMINIO";         // Ex: FATEC
-
+    
 $ldapconn = ldap_connect($ldap_host);
 
 if (!$ldapconn) {
